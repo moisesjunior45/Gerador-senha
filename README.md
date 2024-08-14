@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# 🔑 Gerador de Senha
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um gerador de senha simples em React. Ele permite que você escolha opções como quantidade de caracteres, maiúsculas, minúsculas, números e símbolos para gerar senhas aleatórias.
 
-## Available Scripts
+## Como usar
 
-In the project directory, you can run:
+1. Clone este repositório.
+2. Instale as dependências com `npm install`.
+3. Execute o aplicativo com `npm start`.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Quantidade de caracteres:** Escolha o número de caracteres para a senha.
+- **Adicionar maiúsculas:** Marque a caixa para incluir letras maiúsculas na senha.
+- **Adicionar minúsculas:** Marque a caixa para incluir letras minúsculas na senha.
+- **Adicionar números:** Marque a caixa para incluir números na senha.
+- **Adicionar símbolos:** Marque a caixa para incluir símbolos (por exemplo, !@#$%^&*) na senha.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como funciona
 
-### `npm test`
+O código utiliza funções para gerar caracteres aleatórios com base nas opções selecionadas. A senha final é criada a partir desses caracteres e embaralhada para maior segurança.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologias usadas:
 
-### `npm run build`
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👷 Autores
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Moisés Júnior** - *Frontend* - [Moisés Júnior](https://github.com/moisesjunior45)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

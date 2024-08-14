@@ -1,0 +1,55 @@
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.senha-gerada {
+  font-size: 1.5em;
+  margin: 40px 0;
+  color: var(--primary-color-darker);
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+input {
+  margin: 10px 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+button {
+  margin: 40px 0;
+  font-size: 1em;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #e3e3e3;
+    color: var(--primary-color);
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+}
